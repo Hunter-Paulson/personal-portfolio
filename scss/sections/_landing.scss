@@ -1,0 +1,26 @@
+@use '../utilities/variables' as *;
+
+.landing-wrapper {
+    position: relative;
+
+    img {
+        width: min(100%, 50rem);
+        height: auto;
+        overflow-x: hidden;
+        top: 3rem;
+    }
+
+    h1 {
+       visibility: hidden;
+    }
+
+    @media screen and (min-width: 1110px) {
+        h1 {
+            visibility: visible;
+            position: absolute;
+            font-size: min(7vw, 10rem);
+            top: 50%;
+            left: 50%;
+        }
+    }
+}

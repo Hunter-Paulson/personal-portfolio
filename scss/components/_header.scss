@@ -1,0 +1,11 @@
+header {
+
+    img {
+        width: min(25vw, 8rem);
+        height: auto;
+        padding-left: 1rem;
+        position: absolute;
+        z-index:1000;
+        top: 0;
+    }
+}

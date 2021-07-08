@@ -1,0 +1,29 @@
+//Base
+@import "./base/reset";
+@import "./base/settings";
+
+//Components
+@import "./components/nav";
+@import "./components/header";
+@import "./components/projectLinks";
+@import "./components/footer";
+
+//Sections
+@import "./sections/landing";
+@import "./sections/work";
+@import "./sections/fun";
+@import "./sections/contact";
+
+//Pages 
+@import "./pages/singleWork";
+@import "./pages/aboutMe";
+
+//Utilities
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
+// Required Core Stylesheet
+@import "../node_modules/@glidejs/glide/src/assets/sass/glide.core.scss";
+
+// Optional Theme Stylesheet
+ @import "../node_modules/@glidejs/glide/src/assets/sass/glide.theme";

@@ -1,0 +1,35 @@
+@use '../utilities/variables' as *;
+
+.footer-wrapper {
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    max-width: 100%;
+
+    .email {
+        color: $baby-blue;
+        padding-bottom: 0.5rem;
+    }
+
+    #back2Top {
+        padding: 0.25rem 0.75rem;
+        overflow: hidden;
+        z-index: 999;
+        display: none;
+        cursor: pointer;
+        position: fixed;
+        bottom: 60px;
+        right: 1.5rem;
+        // color: black;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: none;
+    }
+    #back2Top:hover {
+        background-color: $baby-blue;
+        color: white;
+        border-radius: 50%;
+    }
+
+}
