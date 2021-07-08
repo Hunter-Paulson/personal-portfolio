@@ -79,7 +79,7 @@
                             <p>We started creating our style guide by choosing a color palette and discovered a hero image that was perfect for the main page. This led to wireframe creation, and finally high-fidelity mockups.</p>     -->
                                 
                                 <h4>Development</h4>
-                                <p></p>
+                                <p>I...</p>
                             </div>
                         </div>
                     </div>

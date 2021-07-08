@@ -31,7 +31,7 @@
 
             <div class="links">
                 <a class="live-link" href="https://hunterpaulson.com/" target="_blank" rel="noopener noreferrer">View Site</a>
-                <a class="github-link" href="#">View Code</a> 
+                <a class="github-link" href="https://github.com/Hunter-Paulson/personal-portfolio" target="_blank" rel="noopener noreferrer">View Code</a> 
             </div>
 
             <div class="overview-info">
@@ -95,7 +95,7 @@
                         <div class="content-container">
                             <div class="design-content">
                                 <h4>Wireframes</h4>
-                                <p>Our wireframes were created using a mobile-first approach.</p>
+                                <p>Wireframes were created using a mobile-first approach.</p>
                                 <div class="designImages">
                                     <img src="./images/portfolioWireframes.png" alt="Wireframes for this portfolio."/>
                                 </div>

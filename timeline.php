@@ -32,7 +32,6 @@
 
             <div class="links">
                 <a class="live-link" href="https://hunterpaulson.com/timeline/" target="_blank" rel="noopener noreferrer">View Site</a>
-                <!-- <a class="github-link" href="#">View Code</a>  -->
             </div>
 
             <div class="overview-info">
@@ -76,7 +75,7 @@
                                 <p>We started creating our style guide by choosing a color palette and discovered a hero image that was perfect for the main page. This led to wireframe creation, and finally high-fidelity mockups.</p>     -->
                                     
                                 <h4>Development</h4>
-                                <p></p>
+                                <p>Beginning with the HTML I wrote out an unordered list of Marvel Movies in their timeline order.</p>
                             </div>
                         </div>
                     </div>
