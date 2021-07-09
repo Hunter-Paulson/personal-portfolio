@@ -24,7 +24,7 @@
             <h1 class="title">Belle Floral</h1>
 
             <div class="image">
-                <img src="images/belleFloralDesktopMockup.png" alt="A responsive mockup of DiscoveryFlix on mobile, and desktop screen sizes."/>
+                <img src="images/belleFloralDesktopMockup.png" alt="A responsive mockup of Belle Floral on a desktop screen size."/>
             </div>
             
             <div class="bar-one"></div>
@@ -38,7 +38,7 @@
                 <div class="bar">
                     <h2>About</h2>
                 </div>
-                <p>Belle Floral is a fictional flower shop that sells flowers, and house plants. This site was created using Shopify and the free Boundless theme, which I customized a bit. Store password: flower</p>
+                <p>Belle Floral is a fictional flower shop that sells flowers, and house plants. This site was created using Shopify and the free Boundless theme, which I customized myself a bit. The store password is: flower</p>
 
             <div class="bar">
                 <h2>Toolkit</h2>
@@ -85,10 +85,10 @@
                                 <p>Once you figure out the naming conventions used in the theme you choose it is very easy and enjoyable to style. The overall use of Shopify is very simple and I feel confident that I could create an online store for a client using the platform. Finding apps to incorporate into the project can prove to be challenging, but taking the time to do the research, and test out different things will prove to be successful.</p>
 
                                 <h4>What I Would Improve</h4>
-                                <p>Sass is deprecating in Shopify, and the Boundless theme is still currently using Sass for its styling. I would improve the longevity of this site by transitioning the stylesheets to be strictly CSSin order to stay up to date with the platform.</p>
+                                <p>Sass is deprecating in Shopify, and the Boundless theme is still currently using Sass for its styling. I would improve the longevity of this site by transitioning the stylesheets to be strictly CSS in order to stay up to date with the platform.</p>
 
                                 <h4>Next Steps</h4>
-                                <p>My next steps with Shopify overall would be to create another custom Shopify theme for a new target audience and practice customizing themes even further. I believe this is important to ensure all web pages and unique and consistent with their own individual brand.</p>
+                                <p>My next steps with Shopify overall would be to create another custom Shopify theme for a new target audience and practice customizing themes even further. I believe this is important to ensure all web pages are unique and consistent with their own individual brand.</p>
                             </div>
                         </div>
                     </div>

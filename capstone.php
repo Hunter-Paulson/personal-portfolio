@@ -23,7 +23,7 @@
             <h1 class="title">Positively Fit</h1>
 
             <div class="image">
-                <img src="images/blankDesktopMockup.png" alt="A responsive mockup of CAPSTONE PROJECT on a desktop screen size."/>
+                <img src="images/blankDesktopMockup.png" alt="A blank responsive mockup on a desktop screen size."/>
             </div>
             
             <div class="bar-one"></div>
@@ -96,8 +96,8 @@
                             <div class="design-content">
                                 <h4>Wireframes</h4>
                                 <div class="designImages">
-                                    <img src="./images/fitnessMobileWireframe.png" alt="A mobile wireframe for Positively Fit."/>
-                                    <img src="./images/fitnessDesktopWireframe.png" alt="A desktop wireframe for Positively Fit."/>
+                                    <img src="./images/fitnessMobileWireframe.png" alt="Mobile wireframes for Positively Fit."/>
+                                    <img src="./images/fitnessDesktopWireframe.png" alt="Desktop wireframes for Positively Fit."/>
                                 </div>
 
                                 <!-- <h4>High-Fidelity Mockup</h4>
@@ -145,6 +145,5 @@
         ?>
         
         <script src="scripts/backToTop.js"></script>
-        
     </body>
 </html>

@@ -3,7 +3,7 @@
     echo    "<header>
 
                 <div class='toplogo'>
-                    <a href='index.php'><img id='logo-button' src='images/logo2.png' alt=''/></a>
+                    <a href='index.php'><img id='logo-button' src='images/logo2.png' alt='Hunter Paulson's logo.'/></a>
                 </div>
 
                 <nav>

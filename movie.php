@@ -100,8 +100,8 @@
                                 <h4>Wireframes</h4>
                                 <p>Our wireframes were created using a mobile-first approach.</p>
                                 <div class="designImages">
-                                    <img src="./images/movieMobileWireframe.png" alt="A mobile wireframe for DiscoveryFlix."/>
-                                    <img src="./images/movieDesktopWireframe.png" alt="A desktop wireframe for DiscoveryFlix."/>
+                                    <img src="./images/movieMobileWireframe.png" alt="Mobile wireframes for DiscoveryFlix."/>
+                                    <img src="./images/movieDesktopWireframe.png" alt="Desktop wireframes for DiscoveryFlix."/>
                                 </div>
 
                                 <h4>High-Fidelity Mockup</h4>
@@ -114,7 +114,7 @@
                                 <h4>Style Guide</h4>
                                 <p>Styleguide for DiscoveryFlix.</p>
                                 <div class="designImages">
-                                    <img src="./images/movieStyleguide.png" alt="A style guide for DiscoveryFlix."/>
+                                    <img src="./images/movieStyleguide.png" alt="A style guide for DiscoveryFlix. Including a color palette, and a mood board."/>
                                 </div>
                             </div>
                         </div>
@@ -157,6 +157,5 @@
         ?>
                 
         <script src="scripts/backToTop.js"></script>
-        <script src="scripts/workLinks.js"></script>
     </body>
 </html>

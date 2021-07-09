@@ -23,7 +23,7 @@
             <h1 class="title">Portfolio</h1>
 
             <div class="image">
-                <img src="images/portfolioDesktopMockup.png" alt="A responsive mockup of my portfolio on a desktop screen size."/>
+                <img src="images/portfolioDesktopMockup.png" alt="A responsive mockup of this portfolio on a desktop screen size."/>
             </div>
             
             <div class="bar-one"></div>
@@ -83,7 +83,7 @@
                                 </ul>
 
                                 <h4>Planning</h4>
-                                <p>I began by researching other portfolios on the web, from former students as well as portfolios all over the world. I was able to get a feel for what I loved or didn’t like so much. Then I created a content plan for all of the information that I wanted to be displayed on the site and what my overarching goal for the user (you!) would be. From there I created wireframes, which led to mockups, and then I began coding. Although I made an extensive plan before I began creating my portfolio I found that it was very difficult to stick</p>   
+                                <p>I began by researching other portfolios on the web, from former students as well as portfolios all over the world. I was able to get a feel for what I loved or didn’t like so much. Then I created a content plan for all of the information that I wanted to be displayed on the site and what my overarching goal for the user (you!) would be. From there I created wireframes, which led to mockups, and then I began coding.</p>   
                                     
                                 <h4>Development</h4>
                                 <p>For this project I decided to hard code using HTML, CSS, and JavaScript. Implementing PHP in order to create partials for content that would be called across multiple pages. I knew I wanted to implement a few JavaScript features that would improve User Experience on my site such as a scroll to the top button, a sorting feature for content about each project, and a photo slider to ensure pages didn’t become too long.</p>
@@ -103,7 +103,7 @@
                                 <h4>Style Guide</h4>
                                 <p>I created a small style guide for my portfolio with my colours, logos, font, and how I wanted the overall feel for the user to be when I completed the site. This is a simple reminder for me that helped me look back and ensure I completed what I had hoped to with my portfolio.</p>
                                 <div class="designImages">
-                                    <img src="./images/portfolioStyleguide.png" alt="A styleguide for portfolio."/>
+                                    <img src="./images/portfolioStyleguide.png" alt="A styleguide for this portfolio. INcluding a color palette, fonts, and a mood board."/>
                                 </div>
                             </div>
                         </div>
@@ -146,6 +146,5 @@
         ?>
                 
         <script src="scripts/backToTop.js"></script>
-        <script src="scripts/workLinks.js"></script>
     </body>
 </html>

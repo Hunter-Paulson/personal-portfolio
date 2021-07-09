@@ -24,7 +24,7 @@
             <h1 class="title">Timeline</h1>
 
             <div class="image">
-                <img src="images/timelineDesktopMockup.png" alt="A responsive mockup of DiscoveryFlix on mobile, and desktop screen sizes."/>
+                <img src="images/timelineDesktopMockup.png" alt="A responsive mockup of the Marvel Timeline on a desktop screen size."/>
             </div>
             
             <div class="bar-one"></div>
@@ -75,7 +75,7 @@
                                 <h4>Development</h4>
                                 <p>Beginning with the HTML I wrote out an unordered list of Marvel Movies in their timeline order.</p>
 
-                                <p>In the JavaScript file, I define an item variable as each list item from my HTML. Then I created a function that checks to see whether an item is in the viewport. This function utilizes getBoundingClientRect(). This returns the smallest rectangle that contains the entire element, which I found the definition on W3Schools. The next function I created was to add a class to the specific item, that is in view, in order to style it in CSS. Which was the final step in the project, to style everything nicely and ensuring it was mobile-first.</p>
+                                <p>In the JavaScript file, I define an item variable as each list item from my HTML. Then I created a function that checks to see whether an item is in the viewport. This function utilizes getBoundingClientRect(). This returns the smallest rectangle that contains the entire element, I found this definition on W3Schools. The next function I created was to add a class to the specific item that is in view, in order to style it with CSS. Which was the final step in the project, to style everything nicely and ensuring it was mobile-first.</p>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                         <div class="content-container">
                             <div>
                                 <h4>Project Takeaways</h4>
-                                <p>This was a fun little project that I was able to create, while also advancing my skill set and allowing me to learn some more JavaScript functionality. Before I began I wasn’t aware of the HTML DOM getBoundingClientRect() Method which turned out to be a really cool little function that I can see myself using again in the future. </p>
+                                <p>This was a fun little project that I was able to create, while also advancing my skillset in learning more JavaScript functionality. Before I began I wasn’t aware of the HTML DOM getBoundingClientRect() Method which turned out to be a really cool little function that I can see myself using again in the future. </p>
 
                                 <h4>Next Steps</h4>
                                 <p>My next step for this project would be to style it much nicer. Currently, it is a very plain-looking project as my main focus was to get it working.</p>

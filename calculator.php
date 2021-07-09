@@ -24,7 +24,7 @@
             <h1 class="title">Calculator</h1>
 
             <div class="image">
-                <img src="images/calculatorDesktopMockup.png" alt="A responsive mockup of DiscoveryFlix on mobile, and desktop screen sizes."/>
+                <img src="images/calculatorDesktopMockup.png" alt="A responsive mockup of the calculator app on a desktop screen size."/>
             </div>
             
             <div class="bar-one"></div>
@@ -117,6 +117,5 @@
         ?>
                 
         <script src="scripts/backToTop.js"></script>
-       
     </body>
 </html>

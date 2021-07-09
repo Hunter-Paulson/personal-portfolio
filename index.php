@@ -63,13 +63,13 @@
                         <div data-glide-el="track" class="glide__track">
                           <ul class="glide__slides">
                             <li class="glide__slide">
-                                <img id="portfolio-button" src="images/portfolioMobileMockup.png" alt="A photo showcasing a blank mockup in mobile view."/>
+                                <img id="portfolio-button" src="images/portfolioMobileMockup.png" alt="A photo showcasing this portfolio mockup in mobile view."/>
                             </li>
                             <li class="glide__slide">
-                                <img id="portfolio-button" src="images/portfolioTabletMockup.png" alt="A photo showcasing a blank mockup in tablet view."/>      
+                                <img id="portfolio-button" src="images/portfolioTabletMockup.png" alt="A photo showcasing this portfolio mockup in tablet view."/>      
                             </li>
                             <li class="glide__slide">
-                                <img id="portfolio-button" src="images/portfolioDesktopMockup.png" alt="A photo showcasing a blank mockup in desktop view."/>
+                                <img id="portfolio-button" src="images/portfolioDesktopMockup.png" alt="A photo showcasing this portfolio mockup in desktop view."/>
                             </li>
                           </ul>
 
@@ -92,13 +92,13 @@
                         <div data-glide-el="track" class="glide__track">
                           <ul class="glide__slides">
                             <li class="glide__slide">
-                                <img id="portfolio-button" src="images/blankMobileMockup.png" alt="A photo showcasing a blank mockup in mobile view."/>
+                                <img id="portfolio-button" src="images/blankMobileMockup.png" alt="A photo showcasing a blank mockup in mobile view, in place of Positivley Fit which is still in progress."/>
                             </li>
                             <li class="glide__slide">
-                                <img id="portfolio-button" src="images/blankTabletMockup.png" alt="A photo showcasing a blank mockup in tablet view."/>      
+                                <img id="portfolio-button" src="images/blankTabletMockup.png" alt="A photo showcasing a blank mockup in tablet view, in place of Positivley Fit which is still in progress."/>      
                             </li>
                             <li class="glide__slide">
-                                <img id="portfolio-button" src="images/blankDesktopMockup.png" alt="A photo showcasing a blank mockup in desktop view."/>
+                                <img id="portfolio-button" src="images/blankDesktopMockup.png" alt="A photo showcasing a blank mockup in desktop view, in place of Positivley Fit which is still in progress."/>
                             </li>
                           </ul>
 

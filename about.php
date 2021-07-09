@@ -28,13 +28,13 @@
                 </div>
 
                 <h3>Why did I choose to become a developer?</h3>
-                    <p>The biggest reason that I love web development is that I get to create a design and bring it to life through code and problem-solving. I also appreciate that this is an ever-evolving industry and there will always be something new to learn! Working in a team is a strong suit of mine, I enjoy collaborating and learning from one another.</p>
+                    <p>The biggest reason that I love web development is that I get to create a design and bring it to life through code and problem-solving. I also appreciate that this is an ever-evolving industry and there will always be something new to learn! Working in a team is a strong suit of mine. I enjoy collaborating and learning from one another.</p>
 
                 <h3>My favourite technical skill?</h3> 
-                    <p>If I really had to choose… My favourite thing to do is CSS, it can be a very basic skill in this field. But it also can be a very interesting thing to specialize in. As your skills evolve you learn that there are some pretty creative solutions, and ways to do things. Improving user experience and overall design quality. I also really love JavaScript and the dynamic functionality it can add to the webpage. I appreciate the innovation and evolution of the language, I still have a lot to learn and always will!</p>
+                    <p>If I really had to choose… My favourite thing to do is CSS. It can be a very basic skill to have in this field, but it also can be a very interesting thing to specialize in.Your skills evolve as you learn, and there are always creative solutions and ways to do things. Improving user experience and overall design quality. I also really love JavaScript and the dynamic functionality it can add to the webpage. I appreciate the innovation and evolution of the language, I still have a lot to learn and always will!</p>
                             
                 <h3>Outside of code?</h3>
-                    <p>I’ve always been drawn to the creative aspects of life. I enjoy painting, videography, and sketching in Procreate. Self-portraits are my new favourite as I’m always looking for a new one that I can create to display on the landing page of this portfolio. In the summers I enjoy filming and editing wedding videos, also making a few business advertisements on the side.</p>   
+                    <p>I’ve always been drawn to the creative aspects of life. I enjoy painting, videography, and sketching in Procreate. Self-portraits are my new favourite as I’m always looking for a new one that I can create to display on the landing page of this portfolio. I also enjoy filming and editing wedding videos, or just going to see a movie myself in the theatre!</p>   
             </div>
 
         <?php
