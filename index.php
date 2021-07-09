@@ -15,9 +15,8 @@
     </head>
 
     <body>
-        <?php
-            include_once("header.php");
-        ?>
+        <?php $page = basename(__FILE__, '.php'); ?>
+        <?php include_once("header.php"); ?>
 
         <main>
             <section class="landing-wrapper">
@@ -118,19 +117,13 @@
                 
             </section>
 
-        <?php
-            include_once("contact.php");
-        ?>
-              
+            <?php include_once("contact.php"); ?>    
         </main>
 
-        <?php
-            include_once("footer.php");
-        ?>
+        <?php include_once("footer.php"); ?>
         
         <script src="scripts/backToTop.js"></script>
         <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
         <script src="scripts/photoGlider.js"></script>
-        <script src="scripts/activePage.js"></script>
     </body>
 </html>

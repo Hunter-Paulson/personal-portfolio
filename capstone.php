@@ -15,9 +15,9 @@
     </head>
 
     <body class="capstone-page">
-        <?php
-            include_once("header.php");
-        ?>
+
+        <?php $page = basename(__FILE__, '.php'); ?>
+        <?php include_once("header.php"); ?>
 
         <main class="single-work-page">
             <h1 class="title">Positively Fit</h1>
@@ -134,15 +134,10 @@
                 <a class="cta" id="next-button" href="./movie.php"><span>DiscoveryFlix</span></a>
             </div>
 
-            <?php
-                include_once("contact.php");
-            ?>
-            
+            <?php include_once("contact.php"); ?>
         </main>
 
-        <?php
-            include_once("footer.php");
-        ?>
+        <?php include_once("footer.php"); ?>
         
         <script src="scripts/backToTop.js"></script>
     </body>

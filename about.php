@@ -15,9 +15,8 @@
     </head>
 
     <body>
-        <?php
-            include_once("header.php");
-        ?>
+        <?php $page = basename(__FILE__, '.php'); ?>
+        <?php include_once("header.php"); ?>
 
         <main>
             <div id="about" class="about-wrapper">
@@ -37,16 +36,11 @@
                     <p>I’ve always been drawn to the creative aspects of life. I enjoy painting, videography, and sketching in Procreate. Self-portraits are my new favourite as I’m always looking for a new one that I can create to display on the landing page of this portfolio. I also enjoy filming and editing wedding videos, or just going to see a movie myself in the theatre!</p>   
             </div>
 
-        <?php
-            include_once("contact.php");
-        ?> 
+            <?php include_once("contact.php"); ?> 
         </main>
 
-        <?php
-            include_once("footer.php");
-        ?>
+        <?php include_once("footer.php"); ?>
 
         <script src="scripts/backToTop.js"></script>
-        <script src="scripts/activePage.js"></script>
     </body>
 </html>

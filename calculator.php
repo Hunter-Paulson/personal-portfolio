@@ -7,8 +7,8 @@
         <title>Calculator App | Hunter Paulson: Front-End Web Developer</title>
         
         <?php
-        include_once("links.php");
-        const STYLESHEET = "css/main.css";
+            include_once("links.php");
+            const STYLESHEET = "css/main.css";
         ?>
 
         <link rel="stylesheet" href="<?php echo STYLESHEET; ?>">
@@ -16,9 +16,8 @@
 
     <body class="calculator-page">
 
-        <?php
-            include_once("header.php");
-        ?>
+        <?php $page = basename(__FILE__, '.php'); ?>
+        <?php include_once("header.php"); ?>
   
         <main class="single-work-page">
             <h1 class="title">Calculator</h1>
@@ -99,22 +98,15 @@
 
             </div>
 
-            
-
             <div class="projectButtons">
                 <a class="cta" id="prev-button" href="./floral.php"><span>Belle Floral</span></a>
                 <a class="cta" id="next-button" href="./picture-perfect.php"><span>Picture Perfect</span></a>
             </div>
 
-            <?php
-                include_once("contact.php");
-            ?>
-            
+            <?php include_once("contact.php"); ?>
         </main>
 
-        <?php
-            include_once("footer.php");
-        ?>
+        <?php include_once("footer.php"); ?>
                 
         <script src="scripts/backToTop.js"></script>
     </body>

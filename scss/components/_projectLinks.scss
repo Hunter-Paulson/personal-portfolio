@@ -1,7 +1,9 @@
 @use '../utilities/variables' as *;
 
+//Styles for the buttons on single project pages, that link to the other projects
 .projectButtons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 50rem;
     margin: 2rem auto 0;

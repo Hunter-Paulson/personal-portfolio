@@ -15,9 +15,8 @@
     </head>
 
     <body>
-        <?php
-            include_once("header.php");
-        ?>
+        <?php $page = basename(__FILE__, '.php'); ?>
+        <?php include_once("header.php") ?>
 
         <main>
             <div id="fun" class="fun-wrapper">
@@ -53,17 +52,13 @@
                         <a class="btn" href="./calculator.php">View Details</a>
                     </article>
                 </section>
+            </div>
 
-                <?php
-                    include_once("contact.php");
-                ?> 
+            <?php include_once("contact.php"); ?> 
         </main>
 
-        <?php
-            include_once("footer.php");
-        ?>
+        <?php include_once("footer.php"); ?>
 
         <script src="scripts/backToTop.js"></script>
-        <script src="scripts/activePage.js"></script>
     </body>
 </html>

@@ -15,11 +15,11 @@
     </head>
 
     <body class="portfolio-page">
-        <?php
-            include_once("header.php");
-        ?>
 
-<main class="single-work-page">
+        <?php $page = basename(__FILE__, '.php'); ?>
+        <?php include_once("header.php"); ?>
+
+        <main class="single-work-page">
             <h1 class="title">Portfolio</h1>
 
             <div class="image">
@@ -135,15 +135,10 @@
                 <a class="cta" id="next-button" href="./capstone.php"><span>Positively Fit</span></a>
             </div>
 
-            <?php
-                include_once("contact.php");
-            ?>
-            
+            <?php include_once("contact.php"); ?>
         </main>
 
-        <?php
-            include_once("footer.php");
-        ?>
+        <?php include_once("footer.php"); ?>
                 
         <script src="scripts/backToTop.js"></script>
     </body>

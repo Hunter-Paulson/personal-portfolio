@@ -7,8 +7,8 @@
         <title>Picture Perfect | Hunter Paulson: Front-End Web Developer</title>
         
         <?php
-        include_once("links.php");
-        const STYLESHEET = "css/main.css";
+            include_once("links.php");
+            const STYLESHEET = "css/main.css";
         ?>
 
         <link rel="stylesheet" href="<?php echo STYLESHEET; ?>">
@@ -16,9 +16,8 @@
 
     <body class="movie-page">
 
-        <?php
-            include_once("header.php");
-        ?>
+        <?php $page = basename(__FILE__, '.php'); ?>
+        <?php include_once("header.php"); ?>
   
         <main class="single-work-page">
             <h1 class="title">Picture Perfect</h1>
@@ -120,15 +119,10 @@
                 <a class="cta" id="next-button" href="./timeline.php"><span>Marvel Timeline</span></a>
             </div>
 
-            <?php
-                include_once("contact.php");
-            ?>
-            
+            <?php include_once("contact.php"); ?>
         </main>
 
-        <?php
-            include_once("footer.php");
-        ?>
+        <?php include_once("footer.php"); ?>
                 
         <script src="scripts/backToTop.js"></script>
     </body>
