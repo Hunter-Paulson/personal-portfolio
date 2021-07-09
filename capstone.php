@@ -30,15 +30,15 @@
             <div class="bar-two"></div>
 
             <div class="links">
-                <a class="live-link" href="https://fitness.bcitwebdeveloper.ca/" target="_blank" rel="noopener noreferrer">View Site</a>
-                <a class="github-link" href="https://github.com/htpwebdesign/fwd-fitness" target="_blank" rel="noopener noreferrer">View Code</a> 
+                <a class="live-link" href="#">In Progress</a>
+                <!-- <a class="github-link" href="https://github.com/htpwebdesign/fwd-fitness">View Code</a>  -->
             </div>
 
             <div class="overview-info">
                 <div class="bar">
                     <h2>About</h2>
                 </div>
-                <p>Positively Fit is a welcoming personal training gym that is inclusive of everyone, no matter where they are at in their health journey. This is a small gym made up of 3 personal trainers. They offer 1-1 personal training, nutrition, prenatal, post-natal,and rehabilitation sessions. </p>
+                <p>Positively Fit is a welcoming personal training gym that is inclusive of everyone, no matter where they are at in their health journey. This is a small gym made up of 3 personal trainers. They offer 1-1 personal training, nutrition, prenatal, post-natal, and rehabilitation sessions.</p>
             
                 <div class="bar">
                     <h2>Roles</h2>
@@ -64,7 +64,7 @@
                 <ul class="nav nav-tabs">
                     <li class="heading active"><a data-toggle="tab" href="#home">Process</a></li>
                     <li class="heading"><a data-toggle="tab" href="#menu1">Design</a></li>
-                    <li class="heading"><a data-toggle="tab" href="#menu2">Reflection</a></li>
+                    <!-- <li class="heading"><a data-toggle="tab" href="#menu2">Reflection</a></li> -->
                 </ul>
 
                 <div class="tab-content">
@@ -83,7 +83,7 @@
                                 <h4>Planning</h4>
                                 <p>We first established the target audience and the overarching goal of the webpage. This gym was an inclusive space, welcoming all people no matter where they are in their health journey. The goal of the site was to encourage anyone to be motivated to book sessions with the personal trainers at the gym.</p>
 
-                                <p>Creation of a content plan was next. We determined each piece of information that would be required on the site, which led into more detailed decisions as to where it would appear on the site. Leading into mapping out the layout of the page using wireframes. Since this webpage was created in Wordpress we created custom post types, and taxonomies for the staff, services, and testimonials. We chose to create a high fidelity mockup for the home page so there would be a base to go off of as we were working in a team of 4. </p>       
+                                <p>The creation of a content plan was next. We determined each piece of information that would be required on the site, which led into more detailed decisions as to where it would appear on the site. Leading to mapping out the layout of the page using wireframes. Since this webpage was created in WordPress we created custom post types, and taxonomies for the staff, services, and testimonials. We chose to create a high-fidelity mockup for the home page so there would be a base to go off of as we were working in a team of 4.</p>       
                                     
                                 <h4>Development</h4>
                                 <p>Our team worked with Trello to keep everyone organized and on the same page. The first thing we accomplished was the functional webpage, we broke the site up into sections that each person could look at our content plan and ensure all of the information was included on their pages. I worked on the staff page. Including a photo, name, title, class list, and description of the three staff members. It was also important to ensure the classes would link to that specific service page to allow the user to easily navigate the site.</p>
@@ -95,7 +95,6 @@
                         <div class="content-container">
                             <div class="design-content">
                                 <h4>Wireframes</h4>
-                                <p>Our wireframes were created using a mobile-first approach.</p>
                                 <div class="designImages">
                                     <img src="./images/fitnessMobileWireframe.png" alt="A mobile wireframe for Positively Fit."/>
                                     <img src="./images/fitnessDesktopWireframe.png" alt="A desktop wireframe for Positively Fit."/>
@@ -111,7 +110,7 @@
                         </div>
                     </div>
 
-                    <div id="menu2" class="tab-pane fade">
+                    <!-- <div id="menu2" class="tab-pane fade">
                         <div class="content-container">
                             <div>
                                 <h4>Project Takeaways</h4>
@@ -124,7 +123,7 @@
                                 <p>The next goal...</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
 

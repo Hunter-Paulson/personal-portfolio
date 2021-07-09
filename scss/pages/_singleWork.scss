@@ -33,14 +33,7 @@
         text-align: center;
     }
 
-    // h2 {
-    //     font-family: 'Playfair Display', serif;
-    //     font-size: 1.5rem;
-    //     font-weight: bold;
-    // }
-
     .heading.active {
-        background-color: $baby-blue;
         border: none;
         border-bottom: solid 1px #212121;
 
@@ -57,7 +50,7 @@
     
     .container-fluid {
         max-width: 50rem;
-        padding: 1rem;
+        padding: $normal-padding;
         margin: 0 auto;
     }
 
@@ -65,9 +58,7 @@
         cursor: pointer;
         background-color: #fff;
         border: none;
-        
-        padding: 0.5rem 1rem;
-        transition: background-color 0.5s ease;
+        transition: background-color 0.3s ease;
 
         a {
             color: #212121;
@@ -82,8 +73,7 @@
     }
 
     .heading:hover,
-    .heading:focus,
-    .heading:active {
+    .heading:focus {
         background-color: $baby-blue;
         border-bottom: solid 1px $baby-blue;
 
@@ -115,7 +105,7 @@
 
     .content-container {
         border: 2px solid black;
-        padding: 1rem;
+        padding: $normal-padding;
         margin: 1rem auto 0;
         max-width: 50rem;
     }
@@ -132,7 +122,7 @@
 
     ul {
         list-style-type: disc;
-        padding: 1rem; 
+        padding: $normal-padding; 
     }
 
     .toolkit-list {
@@ -197,7 +187,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 1rem;
+        padding: $normal-padding;
         width: 100%;
     }
 

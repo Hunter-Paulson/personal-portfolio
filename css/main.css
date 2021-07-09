@@ -2,19 +2,87 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,8 +92,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -33,16 +110,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -56,6 +137,7 @@ body {
   overflow-x: hidden;
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
+  color: #000411;
 }
 
 h1.title,
@@ -134,6 +216,7 @@ header img {
   justify-content: space-between;
   max-width: 50rem;
   margin: 2rem auto 0;
+  overflow-x: hidden;
 }
 .projectButtons a {
   color: black;
@@ -142,8 +225,8 @@ header img {
 .projectButtons .cta {
   position: relative;
   margin: auto;
-  padding: 19px 22px;
-  transition: all 0.2s ease;
+  padding: 19px 10px;
+  transition: all 0.3s ease;
 }
 .projectButtons .cta:before {
   content: "";
@@ -177,8 +260,7 @@ header img {
 .footer-wrapper {
   padding: 1rem;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
+  margin: 2rem 0 5rem;
   max-width: 100%;
 }
 .footer-wrapper .email {
@@ -261,7 +343,7 @@ header img {
 .work-wrapper .project-link {
   top: 50%;
   z-index: 2;
-  color: black;
+  color: #000411;
   text-transform: uppercase;
   padding: 9px 12px;
   background-color: transparent;
@@ -281,7 +363,7 @@ header img {
 }
 .work-wrapper .glide__arrow {
   padding: 6px 9px;
-  color: black;
+  color: #000411;
 }
 .work-wrapper .glide__arrow--left {
   left: 0.5em;
@@ -462,7 +544,6 @@ header img {
   text-align: center;
 }
 .single-work-page .heading.active {
-  background-color: #DEEDF0;
   border: none;
   border-bottom: solid 1px #212121;
 }
@@ -483,8 +564,7 @@ header img {
   cursor: pointer;
   background-color: #fff;
   border: none;
-  padding: 0.5rem 1rem;
-  transition: background-color 0.5s ease;
+  transition: background-color 0.3s ease;
 }
 .single-work-page .heading a {
   color: #212121;
@@ -496,14 +576,12 @@ header img {
   justify-content: center;
 }
 .single-work-page .heading:hover,
-.single-work-page .heading:focus,
-.single-work-page .heading:active {
+.single-work-page .heading:focus {
   background-color: #DEEDF0;
   border-bottom: solid 1px #DEEDF0;
 }
 .single-work-page .heading:hover a,
-.single-work-page .heading:focus a,
-.single-work-page .heading:active a {
+.single-work-page .heading:focus a {
   background: transparent;
 }
 .single-work-page .nav-tabs {

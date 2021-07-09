@@ -39,7 +39,7 @@
                 <div class="bar">
                     <h2>About</h2>
                 </div>
-                <p>Picture Perfect is a memory match, card flipping game. You can play solo, or with up to four players. There is an easy, medium, and hard mode which alter the amount or cards and game time based on what you choose. The cards are pulled dynamically which allows the user to have a more interesting experience, and the cards won’t always be the same photo in order to ensure it is an enjoyable game to play over and over again.</p>
+                <p>Picture Perfect is a memory match, card flipping game. You can play solo, or with up to four players. There is an easy, medium, and hard mode which alters the number of cards and game time based on what you choose. The cards are pulled dynamically from an array which allows the user to have a more interesting experience.</p>
 
             <div class="bar">
                 <h2>Toolkit</h2>
@@ -90,7 +90,7 @@
 
                                 <p>After my plan was complete I organized the game into tasks to determine what order everything needed to be done in. Then I further broke those tasks up into simple, small sections that would be easier to understand and focus on. I figured out what each piece had to do by writing out exactly what it needed to do in a plain straightforward way, and then began applying my coding knowledge to create the new function.</p>
 
-                                <p>When I didn’t understand a concept I reviewed all the course material on the topic, and also turned to google to watch tutorials or read about how others worked with similar tasks. I also reached out to my peers or teacher to come up with a solution together, or learn of something that helped them with a similar topic. As each piece was completed, the game began to come together. Slowly the game began to come together. I could switch game screens, then the cards flipped, then card match detection came into play, and so on. It became a real game that you could actually play!</p>
+                                <p>When I didn’t understand a concept I reviewed all the course material on the topic and also turned to google to watch tutorials or read about how others worked with similar tasks. I also reached out to my peers or teacher to come up with a solution together, or learn of something that helped them with a similar topic. As each piece was completed, the game began to come together. Slowly the game began to come together. I could switch game screens, then the cards flipped, then card match detection came into play, and so on. It became a real game that you could actually play!</p>
 
                                 <p>Once all of the tasks were completed and the game was functioning, the final thing left to do was test the game over and over again. This allowed me to work out any bugs that existed in my logic, especially for the end game messages which proved to be the most difficult.</p>
 

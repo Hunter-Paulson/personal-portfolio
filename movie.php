@@ -32,7 +32,7 @@
 
             <div class="links">
                 <a class="live-link" href="https://hunterpaulson.com/discoveryflix/" target="_blank" rel="noopener noreferrer">View Site</a>
-                <a class="github-link" href="https://github.com/ainsleymarsh/Movie-Database" target="_blank" rel="noopener noreferrer">View Code</a> 
+                <a class="github-link" href="https://github.com/Hunter-Paulson/discoveryFlix" target="_blank" rel="noopener noreferrer">View Code</a> 
             </div>
 
             <div class="overview-info">
@@ -142,7 +142,7 @@
             </div>
 
             <div class="projectButtons">
-                <a class="cta" id="prev-button" href="./capstone.php"><span>Capstone</span></a>
+                <a class="cta" id="prev-button" href="./capstone.php"><span>Positively Fit</span></a>
                 <a class="cta" id="next-button" href="./portfolio.php"><span>Portfolio</span></a>
             </div>
 

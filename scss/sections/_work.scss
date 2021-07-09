@@ -14,7 +14,7 @@
     }
 
     .work-info {
-        padding: 1rem;
+        padding: $normal-padding;
         text-align: center;
     }
 
@@ -40,7 +40,7 @@
     .project-link {
         top: 50%;
         z-index: 2;
-        color: black;
+        color: $rich-black;
         text-transform: uppercase;
         padding: 9px 12px;
         background-color: transparent;
@@ -62,7 +62,7 @@
 
     .glide__arrow {
         padding: 6px 9px;
-        color: black;
+        color: $rich-black;
     }
 
     .glide__arrow--left {

@@ -38,7 +38,7 @@
                 <div class="bar">
                     <h2>About</h2>
                 </div>
-                <p>A personal portfolio created by myself in order to display all my projects that highlight my skills as a Front-End Web Developer, as well as showcase my personal brand. On the main page you can find my primary work projects, and an illustration of myself. Followed by an about page where you can learn a little more about me. Finally there is a fun project page to display my most recent fun projects that I have completed in order to further advance my development and design skills.</p>
+                <p>A personal portfolio created by myself in order to display all my projects that highlight my skills as a Front-End Web Developer, as well as showcase my personal brand. On the main page, you can find my primary work projects and an illustration of myself. Followed by an about page where you can learn a little more about me. Finally, there is a fun project page to display the most recent fun projects that I have completed in order to further advance my development and design skills.</p>
             
                 <div class="bar">
                     <h2>Roles</h2>
@@ -83,7 +83,7 @@
                                 </ul>
 
                                 <h4>Planning</h4>
-                                <p>I began by researching other portfolios on the web, from former students as well as portfolios all over the world. I was able to get a feel for what I loved, or didn’t like so much. Then I created a content plan for all of the information I wanted displayed on the site and what my overarching goal for the user would be. From there I created wireframes, which led into mockups, and then began coding.</p>   
+                                <p>I began by researching other portfolios on the web, from former students as well as portfolios all over the world. I was able to get a feel for what I loved or didn’t like so much. Then I created a content plan for all of the information that I wanted to be displayed on the site and what my overarching goal for the user (you!) would be. From there I created wireframes, which led to mockups, and then I began coding. Although I made an extensive plan before I began creating my portfolio I found that it was very difficult to stick</p>   
                                     
                                 <h4>Development</h4>
                                 <p>For this project I decided to hard code using HTML, CSS, and JavaScript. Implementing PHP in order to create partials for content that would be called across multiple pages. I knew I wanted to implement a few JavaScript features that would improve User Experience on my site such as a scroll to the top button, a sorting feature for content about each project, and a photo slider to ensure pages didn’t become too long.</p>
@@ -95,13 +95,13 @@
                         <div class="content-container">
                             <div class="design-content">
                                 <h4>Wireframes</h4>
-                                <p>Wireframes were created using a mobile-first approach.</p>
+                                <p> My wireframes were created using a mobile-first approach. My initial thought for this portfolio was that it would be a parallax scroller, with a separate page for my about section. But during development, I decided I preferred to have each piece on its own page. Allowing the user to quickly see my home page with my main projects and contact section easily.</p>
                                 <div class="designImages">
                                     <img src="./images/portfolioWireframes.png" alt="Wireframes for this portfolio."/>
                                 </div>
 
                                 <h4>Style Guide</h4>
-                                <p>Style guide for portfolio.</p>
+                                <p>I created a small style guide for my portfolio with my colours, logos, font, and how I wanted the overall feel for the user to be when I completed the site. This is a simple reminder for me that helped me look back and ensure I completed what I had hoped to with my portfolio.</p>
                                 <div class="designImages">
                                     <img src="./images/portfolioStyleguide.png" alt="A styleguide for portfolio."/>
                                 </div>
@@ -132,7 +132,7 @@
 
             <div class="projectButtons">
                 <a class="cta" id="prev-button" href="./movie.php"><span>DiscoveryFlix</span></a>
-                <a class="cta" id="next-button" href="./capstone.php"><span>Capstone</span></a>
+                <a class="cta" id="next-button" href="./capstone.php"><span>Positively Fit</span></a>
             </div>
 
             <?php

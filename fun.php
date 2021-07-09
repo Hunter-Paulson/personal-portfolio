@@ -29,28 +29,28 @@
                         <img src="images/picturePerfectMobileMockup.png" alt=""/>
                         <h3>Picture Perfect</h3>
                         <p class="fun-info">A memory match card flipping game created to play solo or with up to 4 players!</p>
-                        <a class="btn" href="picture-perfect.php">View Details</a>
+                        <a class="btn" href="./picture-perfect.php">View Details</a>
                     </article>
         
                     <article class="slide fun-02 fun-item">  
                         <img src="images/timelineDesktopMockup.png" alt=""/>
                         <h3>Marvel Timeline</h3>
                         <p class="fun-info">A fun mini project listing Marvel movies in chronological order.</p>
-                        <a class="btn" href="timeline.php">View Details</a>
+                        <a class="btn" href="./timeline.php">View Details</a>
                     </article>
         
                     <article class="slide fun-03 fun-item">
                         <img src="images/belleFloralDesktopMockup.png" alt=""/>
                         <h3>Belle Floral</h3>
                         <p class="fun-info">Shopify store created for a fictional flower shop. Store Password : flower</p>
-                        <a class="btn" href="floral.php">View Details</a>
+                        <a class="btn" href="./floral.php">View Details</a>
                     </article>
 
                     <article class="slide fun-04 fun-item"> 
                         <img src="images/calculatorMobileMockup.png" alt=""/>
                         <h3>Calculator</h3>
                         <p class="fun-info">A fun mini project created to practice my skills in React.</p>
-                        <a class="btn" href="calculator.php">View Details</a>
+                        <a class="btn" href="./calculator.php">View Details</a>
                     </article>
                 </section>
 

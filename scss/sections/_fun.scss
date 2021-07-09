@@ -1,59 +1,3 @@
-// .fun-wrapper {
-//     // padding: 1rem;
-//     cursor: grab;
-//     padding: 5rem 1rem 0;
-//     position: relative;
-//     margin: 1rem auto;
-//     max-width: 50rem;
-
-//     p {
-//         line-height: 1.4;
-//     }
-
-//     .slide-container {
-//         display: inline-flex;
-//         overflow: hidden;
-//         transform: translateX(0);
-//         transition: transform 0.3s ease-in-out;
-
-//         .slide {
-//             width: 100vw;
-//             display: flex;
-//             flex-direction: column;
-//             align-items: center;
-//             justify-content: center;
-//             padding: 1rem;
-//             user-select: none;
-//             position: relative;
-
-//             h3 {
-//                 position: absolute;
-//                 z-index: 1;
-//                 top: 2rem;
-//                 left: 2rem;
-//             }
-
-//             img {
-//                 max-width: 70%;
-//                 transition: transform 0.3s ease-in-out;
-//             }
-
-//             .btn {
-//                 border: 1px solid black;
-//                 padding: 0.25rem 2rem;
-//             }
-//         }
-
-//         .grabbing {
-//             cursor: grabbing;
-//         }
-
-//         .grabbing .slide img {
-//             transform: scale(0.9)
-//         }
-//     }
-// }
-
 @use '../utilities/variables' as *;
 
 .fun-wrapper {
@@ -108,13 +52,7 @@
     }
 
     .btn {
-        // background-color: white;
-        // color: $dark-grey;
-        // text-transform: uppercase;
         margin-top: 1.5rem;
-
-        // display: block;
-        // top: 50%;
         z-index: 2;
         color: black;
         text-transform: uppercase;
@@ -137,7 +75,7 @@
     }
 
     .fun-info {
-        padding: 1rem;
+        padding: $normal-padding;
         text-align: center;
     }
 

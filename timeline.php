@@ -38,7 +38,7 @@
                 <div class="bar">
                     <h2>About</h2>
                 </div>
-                <p>A fun mini project created to practice my skills. This is a concept found on many web pages that I found while creating my own personal portfolio. Even if the animation isn’t used in a timeline concept, it’s still an interesting way to have your content be displayed on a page.</p>
+                <p>This project was created following a tutorial online and I modified the code to make it my own. Before I began I researched some of the terms used in order to understand better what was going on during the creation.</p>
 
             <div class="bar">
                 <h2>Toolkit</h2>
@@ -66,16 +66,16 @@
                             <div>
                                 <h4>Goals</h4>
                                 <ul>
-                                    <li>Create a timeline that features the items sliding in from the sides as you scroll down the page.</li>
+                                    <li>Create a timeline that features items sliding in from the side of the page as you scroll down the page.</li>
                                 </ul>
 
-                                <!-- <h4>Planning</h4>
-                                <p>This project was created using ReactJS, in a small team of 3. From the start, we wanted to ensure that the interface was clean and uncluttered. Our first step was to review examples from past students and research current movie database's to discover what we liked or didn’t like. </p>
-                                    
-                                <p>We started creating our style guide by choosing a color palette and discovered a hero image that was perfect for the main page. This led to wireframe creation, and finally high-fidelity mockups.</p>     -->
+                                <h4>Planning</h4>
+                                <p>This project was created following a tutorial online and I modified the code to make it my own. Before I began I researched some of the terms used in order to understand better what was going on during the creation.</p>    
                                     
                                 <h4>Development</h4>
                                 <p>Beginning with the HTML I wrote out an unordered list of Marvel Movies in their timeline order.</p>
+
+                                <p>In the JavaScript file, I define an item variable as each list item from my HTML. Then I created a function that checks to see whether an item is in the viewport. This function utilizes getBoundingClientRect(). This returns the smallest rectangle that contains the entire element, which I found the definition on W3Schools. The next function I created was to add a class to the specific item, that is in view, in order to style it in CSS. Which was the final step in the project, to style everything nicely and ensuring it was mobile-first.</p>
                             </div>
                         </div>
                     </div>
@@ -83,16 +83,11 @@
                     <div id="menu1" class="tab-pane fade">
                         <div class="content-container">
                             <div>
-                                <!-- <h4>Project Takeaways</h4>
-                                <p>This project helped me understand how React really worked. We set up each page and called them in our app router. This was also the first API call that I’ve made, I got to practice local storage, and also come out with a fully functioning app.</p>
-
-                                <p>During this project working and communicating in a team was critical, and was also why we were able to complete it successfully. We set up online meetings, and collaborated using tools such as Adobe XD and Github. </p>  
-
-                                <h4>What I Would Improve</h4>
-                                <p>After styling the app to exactly how we wanted it, in dev tools between screen sizes 320px to 1980px, we uploaded it to a live server to test it out on real devices of different sizes and discovered a few bugs. We had gotten close to the due date so we fixed what we could but had to come back and improve things afterwards, this could have been avoided if we had tested it out sooner and more frequently. Learning that we must test, test, and test again before launch! </p> -->
+                                <h4>Project Takeaways</h4>
+                                <p>This was a fun little project that I was able to create, while also advancing my skill set and allowing me to learn some more JavaScript functionality. Before I began I wasn’t aware of the HTML DOM getBoundingClientRect() Method which turned out to be a really cool little function that I can see myself using again in the future. </p>
 
                                 <h4>Next Steps</h4>
-                                <p>I would like to have interesting information displayed on this timeline, and to style it in my own way. To advance my css skills.</p>
+                                <p>My next step for this project would be to style it much nicer. Currently, it is a very plain-looking project as my main focus was to get it working.</p>
                             </div>
                         </div>
                     </div>
