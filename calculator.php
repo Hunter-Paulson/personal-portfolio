@@ -77,7 +77,7 @@
 
                                 <p>The React useState hook is implemented in order to set the numbers that are entered, stored, and displayed. From there, I implemented a function in order to handle the order of operations and apply math based on what symbol is entered. This function goes through many if statements to check what it should do based on the values of the buttons that are clicked.</p>
 
-                                <p>After the basic logic was put into place all that was left was to test the calculator over and over again to ensure everything functioned as expected.</p>
+                                <p>After the basic logic was put into place all that was left was to exhaustively test the calculator to ensure everything functioned as expected.</p>
                             </div>
                         </div>
                     </div>
