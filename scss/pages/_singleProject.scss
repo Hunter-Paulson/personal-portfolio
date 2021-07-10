@@ -1,0 +1,201 @@
+@use '../utilities/variables' as *;
+
+.single-work-page {
+
+    padding-top: 6rem;
+    
+    h4 {
+        font-family: $header-font;
+        font-weight: bold;
+    }
+
+    p {
+        margin: 1.5rem 1rem 2rem;
+        max-width: 100%;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding: $normal-padding; 
+    }
+
+    img {
+        width: 24rem;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    //A div for centering the laptop mockup
+    .image {
+        text-align: center;
+    }
+
+    //These are the bars at the top of the page behind the laptop mockup
+    .bar-one {
+        background-color: $peach;
+        height: 1.25rem;
+        width: 50%;
+        z-index: -1;
+        position: absolute;
+        top: 19rem;
+    }
+    
+    .bar-two {
+        background-color: $baby-blue;
+        height: 3.75rem;
+        width: 50%;
+        z-index: -1;
+        position: absolute;
+        top: 13rem;
+        right: 0;
+    }
+
+    //Styling the Github and/or Live Site links
+    .links {
+        display: flex;
+        justify-content: space-evenly;
+        width: 18rem;
+        margin: 0.5rem auto 2.5rem;
+    
+        .live-link,
+        .github-link {
+            border:1.5px solid $rich-black;
+            padding: 0.5rem 1rem;
+            color: $rich-black;
+        }
+    
+        a {
+            text-decoration: none;
+        }
+    
+        .live-link:hover{
+            color: $rich-black;
+            background-color: $peach;
+            border-color: $peach;   
+        }
+    
+        .github-link:hover {
+            text-decoration: underline;
+        }
+    }
+
+    //Overview of the project
+    .overview-info {
+        margin: 1rem;
+        max-width: 50rem;
+        margin: 0 auto;
+
+        p {
+            margin-top: 1.5rem;
+        }
+    }
+
+    //Unordered list of tools used
+    .toolkit-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        max-width: 100%;
+
+        li {
+            margin: 0.5rem;
+            align-self: flex-start;
+            min-width: 120px;
+        }
+    }
+
+    //A div to create the bar behind the titles
+    .bar {
+        width: 20%;
+        height: 9px;
+        background-color: $baby-blue;
+        margin: 1rem;
+        position: relative;
+    
+        h2 {
+            position: absolute;
+            top: -6px;
+            left: 1rem;
+            font-weight: bold;
+            font-size: min(6vw, 1.75rem);
+        }
+    }
+
+    //Wrapper for the process, design, and reflection tabs
+    .nav-tabs {
+        display: flex;
+        justify-content: center;
+        border-bottom: none;
+    }
+
+    .nav-tabs>li.active>a,
+    .nav-tabs>li.active>a:focus,
+    .nav-tabs>li.active>a:hover {
+        background: none;
+        border: none;
+    }
+
+    //Tabs for process, design, and reflection
+    .heading {
+        cursor: pointer;
+        background-color: #fff;
+        border: none;
+        transition: background-color 0.3s ease;
+
+        a {
+            color: #212121;
+            background-color: transparent;
+            border: none;
+        }
+    }
+
+    .heading:hover,
+    .heading:focus {
+        background-color: $baby-blue;
+        border-bottom: solid 1px $baby-blue;
+
+        a {
+            background: transparent;
+        }
+    }
+
+    .heading.active {
+        border: none;
+        border-bottom: solid 1px #212121;
+
+        a {
+            background: transparent;
+            border: none;
+        }
+    }
+
+    //Wraps the content displayed in each of the process, design, and reflection tabs
+    .content-container {
+        border: 2px solid $rich-black;
+        padding: $normal-padding;
+        margin: 1rem auto 0;
+        max-width: 50rem;
+    }
+
+    //Content inside of the design tab
+    .design-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: $normal-padding;
+        width: 100%;
+    }
+    
+    .designImages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    
+        img {
+            margin: 0 1rem;
+        }
+    }
+}

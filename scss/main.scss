@@ -6,17 +6,18 @@
 @import "./components/nav";
 @import "./components/header";
 @import "./components/projectLinks";
+@import "./components/viewDetailsButton";
+@import "./components/contact";
 @import "./components/footer";
 
 //Sections
-@import "./sections/landing";
-@import "./sections/work";
-@import "./sections/fun";
-@import "./sections/contact";
+@import "./homeSections/landing";
+@import "./homeSections/work";
 
 //Pages 
-@import "./pages/singleWork";
+@import "./pages/singleProject";
 @import "./pages/aboutMe";
+@import "./pages/fun";
 
 //Utilities
 @import "./utilities/variables";

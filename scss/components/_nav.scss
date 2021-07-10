@@ -17,15 +17,6 @@ nav {
             text-decoration: underline;
         }
     }
-    
-    button {
-        background: transparent;
-        border: none;
-    }
-
-    p { 
-        color: white;
-    }
 
     li {
         display: flex;
@@ -33,22 +24,31 @@ nav {
         align-items: center;
     }
 
-    svg {
-        fill: white;
-        margin-bottom: 0.5rem;
-    }
-
     a {
-        color: black;
+        color: $rich-black;
         text-decoration: none;
         padding: $normal-padding;
     }
 
     a:hover {
         background-color: $baby-blue;
-        color: black;
+        color: $rich-black;
         text-decoration: none;
     }
+    
+    p { 
+        color: white;
+    }
+
+    button {
+        background: transparent;
+        border: none;
+    }
+
+    svg {
+        fill: white;
+        margin-bottom: 0.5rem;
+    } 
 }
 
 @media screen  and (min-width: 700px) {
@@ -62,7 +62,7 @@ nav {
         }
 
         p {
-            color: black;
+            color: $rich-black;
         }
 
         svg {

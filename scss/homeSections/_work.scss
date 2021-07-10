@@ -1,0 +1,86 @@
+@use '../utilities/variables' as *;
+
+.work-wrapper {
+    margin: 1rem;
+    max-width: 80rem;
+
+    @media screen and (min-width: 500px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100rem;
+        margin: 0 auto;
+    }
+
+    h3 {
+        font-family: $header-font;
+        font-size: 1.75rem;
+        margin-bottom: 0.75rem;
+    }
+
+    p {
+        margin-bottom: 2rem;
+    }
+
+    img {
+        max-width: 70%;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        left: 35%;
+        transform: translate(-50%);
+    }
+
+    //Article for each work project
+    .work-item {
+       background-color: #DEEDF0; 
+       margin-bottom: 1rem;
+       padding: 2rem 0 1rem;
+       width: 100%;
+       border: 2px solid rgba(255, 255, 255, 0.5);
+       border-radius: 4px;
+       box-shadow: 0 0.25em 0.5em 0 rgb(0 0 0 / 10%);
+       text-shadow: 0 0.25em 0.5em rgb(0 0 0 / 10%);
+    }
+
+    .work-item:nth-of-type(2){
+        background-color: #F4C7AB; 
+    }
+
+    .work-item:nth-of-type(3){
+        background-color: #B2B8A3; 
+    }
+
+    @media screen and (min-width: 500px) {
+
+        .work-item {
+            width: 25rem;
+            margin: 1rem auto;
+        }
+    }
+
+    //A div with written content about the project
+    .work-info {
+        padding: $normal-padding;
+        text-align: center;
+    }
+
+    //The "view details" button styling
+    .project-link {
+        top: 50%;
+    }
+
+    //Arrows for the sliding images
+    .glide__arrow {
+        padding: 6px 9px;
+        color: $rich-black;
+    }
+
+    .glide__arrow--left {
+        left: 0.5em;
+    }
+
+    .glide__arrow--right {
+        right: 0.5em;
+    }
+}

@@ -1,0 +1,79 @@
+@use '../utilities/variables' as *;
+
+.fun-wrapper {
+
+    padding: 5rem 1rem 0;
+
+    //Wraps all of the projects displayed
+    .project-container{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    h2 {
+        max-width: 50rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    h3 {
+        font-family: $header-font;
+        font-size: 1.75rem;
+    }
+
+    img {
+        max-width: 15rem;
+    }
+
+    //Each article is an individual project
+    article {
+        background-color: $baby-blue;
+        margin: 1rem;
+        padding: 2rem 1rem;
+        text-align: center;
+        width: 100%;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 4px;
+        box-shadow: 0 0.25em 0.5em 0 rgb(0 0 0 / 10%);
+        text-shadow: 0 0.25em 0.5em rgb(0 0 0 / 10%);
+    }
+
+    article:nth-of-type(2){
+        background-color: $peach;
+    }
+
+    article:nth-of-type(3){
+        background-color: $light-green;
+    }
+
+    article:nth-of-type(4){
+        background-color: $baby-blue;
+    }
+
+    @media screen and (min-width: 500px) {
+
+        article {
+            width: 25rem;
+            margin: 1rem auto;
+        }
+    }
+
+    //The "View Details" button
+    .project-link {
+        margin-top: 1.5rem;
+    }
+
+    //Small description of the project
+    .fun-info {
+        padding: $normal-padding;
+        text-align: center;
+    }
+}
