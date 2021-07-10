@@ -744,15 +744,14 @@ header img {
 .error-page button:hover:active {
   transform: scale(0.96);
 }
-
-.container {
+.error-page .container {
   width: 250px;
   height: 280px;
   position: absolute;
   top: calc(50% - 100px);
   left: calc(50% - 125px);
 }
-.container .coffee-header {
+.error-page .container .coffee-header {
   width: 100%;
   height: 80px;
   position: absolute;
@@ -761,7 +760,7 @@ header img {
   background-color: #DEEDF0;
   border-radius: 10px;
 }
-.container .coffee-header__buttons {
+.error-page .container .coffee-header__buttons {
   width: 25px;
   height: 25px;
   position: absolute;
@@ -769,7 +768,7 @@ header img {
   background-color: #282323;
   border-radius: 50%;
 }
-.container .coffee-header__buttons::after {
+.error-page .container .coffee-header__buttons::after {
   content: "";
   width: 8px;
   height: 8px;
@@ -778,13 +777,13 @@ header img {
   left: calc(50% - 4px);
   background-color: #615e5e;
 }
-.container .coffee-header__button-one {
+.error-page .container .coffee-header__button-one {
   left: 15px;
 }
-.container .coffee-header__button-two {
+.error-page .container .coffee-header__button-two {
   left: 50px;
 }
-.container .coffee-medium {
+.error-page .container .coffee-medium {
   width: 90%;
   height: 160px;
   position: absolute;
@@ -792,7 +791,7 @@ header img {
   left: calc(50% - 45%);
   background-color: #669099;
 }
-.container .coffee-medium:before {
+.error-page .container .coffee-medium:before {
   content: "";
   width: 90%;
   height: 100px;
@@ -802,7 +801,7 @@ header img {
   left: calc(50% - 45%);
   border-radius: 20px 20px 0 0;
 }
-.container .coffe-medium__exit {
+.error-page .container .coffe-medium__exit {
   width: 60px;
   height: 20px;
   position: absolute;
@@ -810,7 +809,7 @@ header img {
   left: calc(50% - 30px);
   background-color: #231f20;
 }
-.container .coffe-medium__exit::before {
+.error-page .container .coffe-medium__exit::before {
   content: "";
   width: 50px;
   height: 20px;
@@ -820,7 +819,7 @@ header img {
   left: calc(50% - 25px);
   background-color: #231f20;
 }
-.container .coffe-medium__exit::after {
+.error-page .container .coffe-medium__exit::after {
   content: "";
   width: 10px;
   height: 10px;
@@ -829,7 +828,7 @@ header img {
   left: calc(50% - 5px);
   background-color: #231f20;
 }
-.container .coffee-medium__arm {
+.error-page .container .coffee-medium__arm {
   width: 70px;
   height: 20px;
   position: absolute;
@@ -837,7 +836,7 @@ header img {
   right: 25px;
   background-color: #231f20;
 }
-.container .coffee-medium__arm::before {
+.error-page .container .coffee-medium__arm::before {
   content: "";
   width: 15px;
   height: 5px;
@@ -846,7 +845,7 @@ header img {
   left: -15px;
   background-color: #9e9495;
 }
-.container .coffee-medium__cup {
+.error-page .container .coffee-medium__cup {
   width: 80px;
   height: 47px;
   position: absolute;
@@ -855,7 +854,7 @@ header img {
   background-color: #F4C7AB;
   border-radius: 0 0 70px 70px/0 0 110px 110px;
 }
-.container .coffee-medium__cup::after {
+.error-page .container .coffee-medium__cup::after {
   content: "";
   width: 20px;
   height: 20px;
@@ -887,7 +886,7 @@ header img {
     opacity: 0;
   }
 }
-.container .coffee-medium__liquid {
+.error-page .container .coffee-medium__liquid {
   width: 6px;
   height: 63px;
   opacity: 0;
@@ -897,7 +896,7 @@ header img {
   background-color: #74372b;
   animation: liquid 4s 4s linear infinite;
 }
-.container .coffee-medium__smoke {
+.error-page .container .coffee-medium__smoke {
   width: 8px;
   height: 20px;
   position: absolute;
@@ -940,31 +939,31 @@ header img {
     opacity: 0;
   }
 }
-.container .coffee-medium__smoke-one {
+.error-page .container .coffee-medium__smoke-one {
   opacity: 0;
   bottom: 50px;
   left: 102px;
   animation: smokeOne 3s 4s linear infinite;
 }
-.container .coffee-medium__smoke-two {
+.error-page .container .coffee-medium__smoke-two {
   opacity: 0;
   bottom: 70px;
   left: 118px;
   animation: smokeTwo 3s 5s linear infinite;
 }
-.container .coffee-medium__smoke-three {
+.error-page .container .coffee-medium__smoke-three {
   opacity: 0;
   bottom: 65px;
   right: 118px;
   animation: smokeTwo 3s 6s linear infinite;
 }
-.container .coffee-medium__smoke-for {
+.error-page .container .coffee-medium__smoke-for {
   opacity: 0;
   bottom: 50px;
   right: 102px;
   animation: smokeOne 3s 5s linear infinite;
 }
-.container .coffee-footer {
+.error-page .container .coffee-footer {
   width: 95%;
   height: 15px;
   position: absolute;
@@ -973,7 +972,7 @@ header img {
   background-color: #3c4b4e;
   border-radius: 10px;
 }
-.container .coffee-footer::after {
+.error-page .container .coffee-footer::after {
   content: "";
   width: 106%;
   height: 26px;

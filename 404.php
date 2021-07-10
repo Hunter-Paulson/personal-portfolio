@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta name="description" content="404 page one Hunter Paulson's, Front-End Developer portfolio.">
-        <title>Home | Hunter Paulson: Front-End Web Developer</title>   
+        <title>404 | Hunter Paulson: Front-End Web Developer</title>   
 
         <?php
             include_once("links.php");
@@ -26,8 +26,6 @@
                 <div class="coffee-header">
                     <div class="coffee-header__buttons coffee-header__button-one"></div>
                     <div class="coffee-header__buttons coffee-header__button-two"></div>
-                    <!-- <div class="coffee-header__display"></div>
-                    <div class="coffee-header__details"></div> -->
                 </div>
 
                 <div class="coffee-medium">
