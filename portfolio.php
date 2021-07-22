@@ -113,15 +113,15 @@
                         <div class="content-container">
                             <div>
                                 <h4>Project Takeaways</h4>
-                                <p>This project helped me understand how React really worked. We set up each page and called them in our app router. This was also the first API call that I’ve made, I got to practice local storage, and also come out with a fully functioning app.</p>
-
-                                <p>During this project working and communicating in a team was critical, and was also why we were able to complete it successfully. We set up online meetings, and collaborated using tools such as Adobe XD and Github. </p>  
+                                <p>I am very proud of this portfolio and love the way that it turned out. Beginning with a content plan was very helpful to keep me on track and have the main content displayed right away. After the site was ready I had plenty of time to work out the styling. As I coded the overall theme for the page did begin to evolve and change in the process. I believe because this is my own personal portfolio I was having a hard time deciding on how I’d like the project to be styled, and changed my mind multiple times on how to display the content on the site in the best way possible. Being my own client was a challenging and rewarding process and it helped me learn that beginning with a more solid plan aids in the overall development of the website. </p>
 
                                 <h4>What I Would Improve</h4>
-                                <p>After styling the app to exactly how we wanted it, in dev tools between screen sizes 320px to 1980px, we uploaded it to a live server to test it out on real devices of different sizes and discovered a few bugs. We had gotten close to the due date so we fixed what we could but had to come back and improve things afterwards, this could have been avoided if we had tested it out sooner and more frequently. Learning that we must test, test, and test again before launch! </p>
+                                <p>My fun project page will be constantly improving as I continue to learn and grow as a developer. The projects displayed will be constantly improving!</p>
 
                                 <h4>Next Steps</h4>
-                                <p>The next goal of this project would be to implement a login feature, allowing users to create an account, select an avatar, and keep track of films they’ve watched and also save favourites. That way they can access their selection on any device!</p>
+                                <p>The next step that I would take for this portfolio would be to add a dark mode selection to allow the user to choose which theme they would prefer to view my site in. The reason for wanting to implement this feature is that I think it would be a really cool feature to add, as I find myself changing the color scheme when I visit sites that have it available. But also to improve the user experience as it can reduce eye strain.</p>
+
+                                <p>Another thing that I would love to implement is a theme color switcher. I would really like to choose 2 or 3 color palettes and allow the user to choose which one they prefer while they browse my site.</p>
                             </div>
                         </div>
                     </div>

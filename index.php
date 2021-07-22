@@ -91,13 +91,13 @@
                         <div data-glide-el="track" class="glide__track">
                           <ul class="glide__slides">
                             <li class="glide__slide">
-                                <img id="portfolio-button" src="images/blankMobileMockup.png" alt="A photo showcasing a blank mockup in mobile view, in place of Positivley Fit which is still in progress."/>
+                                <img id="portfolio-button" src="images/positivelyFitMobileMockup.png" alt="A photo showcasing Positivley Fit in mobile view."/>
                             </li>
                             <li class="glide__slide">
-                                <img id="portfolio-button" src="images/blankTabletMockup.png" alt="A photo showcasing a blank mockup in tablet view, in place of Positivley Fit which is still in progress."/>      
+                                <img id="portfolio-button" src="images/positivelyFitTabletMockup.png" alt="A photo showcasing Positivley Fit in tablet view."/>      
                             </li>
                             <li class="glide__slide">
-                                <img id="portfolio-button" src="images/blankDesktopMockup.png" alt="A photo showcasing a blank mockup in desktop view, in place of Positivley Fit which is still in progress."/>
+                                <img id="portfolio-button" src="images/positivelyFitDesktopMockup.png" alt="A photo showcasing Positivley Fit in desktop view."/>
                             </li>
                           </ul>
 
@@ -110,8 +110,8 @@
 
                     <div class="work-info">
                         <h3 class="project-name">Positively Fit</h3>
-                        <p class="project-description">Currently collaborating on a final project for the BCIT FWD program.</p>
-                        <a class="project-link" href="capstone.php">In Progress</a>
+                        <p class="project-description">A welcoming personal training gym that sells multiple services online using WooCommerce.</p>
+                        <a class="project-link" href="capstone.php">View Details</a>
                     </div>
                 </article>
                 
